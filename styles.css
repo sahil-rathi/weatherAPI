@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.searchbtnstyle{
+    display: flex;
+    justify-content: center;
+}
+
+.maincard{
+    margin: 127px;
+    background-color:rgba(0, 0, 0, 0.767);
+    color: white;
+    border-radius: 8px;
+}
+body{
+    background-image: url("https://source.unsplash.com/1600x900/?city");
+}     
+.cardimg{
+    margin:0;
+    border-radius: 8px;
+}
+.mainform{
+    border-radius: 8px;
+    /* background-color:rgba(0, 0, 0, 0.767); */
+
+}
+
+.description{
+    text-transform:capitalize;
+}
+
+.defaulttext{
+    letter-spacing: 0.2em;
+    margin-top: 100px;
+}
