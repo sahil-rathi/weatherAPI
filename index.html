@@ -2,61 +2,63 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="shortcut icon" href="favicon.jpg">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="favicon.jpg">
 
-    <title>Weather Website</title>
+  <title>Weather Website</title>
 </head>
 
 <body>
-    <div class="card mx-auto justify-content-center maincard" style="width: 20em;height: 32em;">
-        <div class="card-body mx-auto">
-            <h5 class="card-title"></h5>
-            <nav class="navbar navbar-light bg-light mainform">      
-                <div class="container-fluid display-flex justify-content-center ">
-                  <form class="d-flex ">
-                      <!-- input box -->
-                    <input class="form-control me-2 searchbox" type="search" placeholder="Enter City Name" aria-label="Search">
-                    <!-- search button -->
-                    <button class="btn btn-outline-secondary searchbtn" type="submit">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search searchbtnstyle" viewBox="0 0 16 16">
-                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                      </svg></button>
-                  </form>
-                </div>
-              </nav>
-              <div class="main my-2">
-                <p class="card-text text-center defaulttext"> Welcome to The Weather App !</p>
-                <p class="card-text text-left my-3 city"></p>
-                <p class="card-text text-left my-2 temp"></p>
-                <img class="card-text text-left icon">
-                <p class="card-text text-left my-2 description"></p>
-                <p class="card-text text-left my-2 humidity"></p>
-                <p class="card-text text-left my-2 windSpeed"></p>
-              </div>
-
+  <div class="card mx-auto justify-content-center maincard" style="width: 20em;height: 32em;">
+    <div class="card-body mx-auto">
+      <h5 class="card-title"></h5>
+      <nav class="navbar navbar-light bg-light-background-color mainform">
+        <div class="container-fluid display-flex justify-content-center ">
+          <form class="d-flex ">
+            <!-- input box -->
+            <input class="form-control me-2 searchbox" type="search" placeholder="Enter City Name" aria-label="Search">
+            <!-- search button -->
+            <button class="btn btn-outline-secondary searchbtn" type="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-search searchbtnstyle" viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+              </svg></button>
+          </form>
         </div>
-        <img class="cardimg" src="https://source.unsplash.com/1600x900/?weather" class="card-img-top" alt="Weather">
+      </nav>
+      <div class="main my-2">
+        <p class="card-text text-center defaulttext"> Welcome to The Weather App !</p>
+        <p class="card-text text-left my-3 city"></p>
+        <p class="card-text text-left my-2 temp"></p>
+        <img class="card-text text-left icon">
+        <p class="card-text text-left my-2 description"></p>
+        <p class="card-text text-left my-2 humidity"></p>
+        <p class="card-text text-left my-2 windSpeed"></p>
+      </div>
+
     </div>
+    <img class="cardimg" src="https://source.unsplash.com/1600x900/?weather" class="card-img-top" alt="Weather">
+  </div>
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-        crossorigin="anonymous"></script>
-     <script src="main.js" defer></script>  
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+  <script src="main.js" defer></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
     -->
